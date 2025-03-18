@@ -2,8 +2,6 @@ class Solution {
     public int solution(String my_string) {
         int answer = 0;
         int num = 0;
-
-        my_string += "A";
         
         for(int i = 0; i < my_string.length(); i++) {
             char c = my_string.charAt(i);
@@ -15,6 +13,8 @@ class Solution {
                 num = 0;
             }
         }
+
+        answer += num;
 
         return answer;
     }

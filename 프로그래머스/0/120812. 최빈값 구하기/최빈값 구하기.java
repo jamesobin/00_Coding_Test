@@ -19,16 +19,15 @@ class Solution {
             }
         }
 
-        int count = 0;
+        int countForCheck = 0;
         for(int i = 0; i < countList.length; i++) {
             if(countList[i] == max) {
-                count++;
+                countForCheck++;
             }
         }
 
         int answer = 0;
-
-        if(count == 1) {
+        if(countForCheck == 1) {
             for(int i = 0; i < countList.length; i++) {
                 if(countList[i] == max) {
                     answer = array[i];

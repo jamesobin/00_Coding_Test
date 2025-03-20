@@ -7,7 +7,7 @@ class Solution {
                 break;
             }
 
-            answer += 1;
+            answer++;
         }
         
         return answer;

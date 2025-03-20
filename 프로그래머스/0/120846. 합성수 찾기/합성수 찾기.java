@@ -7,10 +7,10 @@ class Solution {
             
             for(int j = 1; j <= i; j++) {
                 if(i % j == 0){
-                    count += 1;
+                    count++;
                     
                     if(count >= 3){
-                        answer += 1;
+                        answer++;
                         break;
                     }
                 }   

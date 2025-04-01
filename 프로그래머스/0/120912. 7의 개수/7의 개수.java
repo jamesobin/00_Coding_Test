@@ -3,7 +3,7 @@ class Solution {
         int count = 0;
 
         for(int i = 0; i < array.length; i++) {
-            String snum = array[i] + "";
+            String snum = String.valueOf(array[i]);
 
             for(int j = 0; j < snum.length(); j++) {
                 char c = snum.charAt(j);

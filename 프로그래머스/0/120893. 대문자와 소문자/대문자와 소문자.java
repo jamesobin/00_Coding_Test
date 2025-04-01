@@ -5,10 +5,12 @@ class Solution {
         for(int i = 0; i < my_string.length(); i++) {
             char c = my_string.charAt(i);
             
-            if(65 <= c && c <= 90) {
-                answer += my_string.valueOf(c).toLowerCase();
+            if(65 <= c && c <= 96) {
+                // answer += my_string.valueOf(c).toLowerCase();
+                answer += (char)(c + 32);
             } else {
-                answer += my_string.valueOf(c).toUpperCase();
+                // answer += my_string.valueOf(c).toUpperCase();
+                answer += (char)(c - 32);
             }
         }
         

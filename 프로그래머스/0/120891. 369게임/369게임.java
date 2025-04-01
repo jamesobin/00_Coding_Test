@@ -6,8 +6,8 @@ class Solution {
         String[] slist = sOrder.split("");
         
         for(int i = 0; i < slist.length; i++) {
-            int index = Integer.parseInt(slist[i]);
-            if(index == 3 || index == 6 || index == 9) {
+            int num = Integer.parseInt(slist[i]);
+            if(num == 3 || num == 6 || num == 9) {
                 answer++;
             }
         }

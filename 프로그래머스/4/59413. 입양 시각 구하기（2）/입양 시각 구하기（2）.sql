@@ -6,7 +6,6 @@ WITH RECURSIVE `NUM` AS (
     SELECT `HOUR` + 1 FROM `NUM`
     WHERE `HOUR` < 23
 )
-
 SELECT
     n.HOUR
     , IF(t.COUNT IS NULL, 0, t.COUNT) AS `COUNT`

@@ -1,10 +1,10 @@
 # [level 0] 합성수 찾기 - 120846 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120846?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120846?language=javascript) 
 
 ### 성능 요약
 
-메모리: 85.7 MB, 시간: 0.05 ms
+메모리: 33.5 MB, 시간: 0.20 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 03월 20일 14:04:36
+2025년 05월 13일 16:01:54
 
 ### 문제 설명
 

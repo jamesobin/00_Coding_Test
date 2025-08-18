@@ -1,10 +1,10 @@
 func solution(n int) int {
-    var result int = 0;
+    var result int = 0
         
     if n % 7 == 0 {
-        result = n / 7;
+        result = n / 7
     } else {
-        result = n / 7 + 1;
+        result = n / 7 + 1
     }
 
     return result

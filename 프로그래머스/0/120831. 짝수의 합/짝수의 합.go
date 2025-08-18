@@ -7,5 +7,5 @@ func solution(n int) int {
         }
     }
 
-    return sum;
+    return sum
 }
